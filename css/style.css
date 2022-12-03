@@ -1,0 +1,442 @@
+body{
+    background-color: #f2f2f2;
+}
+.homePage{
+    display: flex;
+    width: 100vw;
+}
+.homePage  nav{
+    width: 30%;
+    min-width: 150px;
+    max-width: 250px;
+    min-height: 100vh;
+    background-color: #1B337D;
+    text-align: center;
+    padding-top: 35px;
+}
+.homePage .leftBar nav{
+    display: flex;
+    flex-direction: column;
+}
+.homePage .leftBar .homeLogo{
+    width: 88px;
+    height: 106px;
+    margin:0px auto;
+}
+.homePage .leftBar .homeLogo img{
+    width: 100%;
+    height: 88px;
+}
+.homePage .leftBar .homeLogo p{
+    font-size: 13px;
+    color: aliceblue;
+    letter-spacing: .2rem;
+    padding-top:5px;
+}
+.homePage .leftBar ul{
+    padding-top: 114px;
+}
+.homePage .leftBar ul li{
+    padding-bottom: 45px;
+    font-size: 13px;
+    /* letter-spacing: 0.2rem; */
+}
+.homePage .leftBar a{
+    text-decoration: none;
+    color: #f2f2f2;
+    display: inline-block;
+}
+.homePage .leftBar ul li a{
+    width: 65px;
+    text-align-last: justify;
+    height: 17px;
+}
+.homePage .leftBar li a:hover{
+    border-bottom: 1px solid #f2f2f2;
+    box-sizing: border-box;
+}
+.homePage .leftBar .language{
+    color: #f2f2f2;
+    display: flex;
+    justify-content: space-between;
+    margin:auto 33px 20px;
+    margin-top: auto;
+    font-size: 13px;
+}
+.homePage .rightBar{
+    width: 100%;
+}
+.homePage .rightBar img{
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: cover;
+}
+
+
+.header{
+    width: 100vw;
+    display: flex;
+    justify-content: left;
+    background-color: #f2f2f2;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    /* margin-bottom: 60px; */
+}
+.header .homeLogo{
+    width: 100%;
+    margin: 20px 45px;
+    display: flex;
+    justify-content: space-between;
+}
+.header .homeLogo .image{
+    max-width: 60px;
+}
+.header .homeLogo img{
+    width: 100%;
+    height: 60px;
+}
+.header .hamburger-wrap{
+    position: relative;
+    padding: 15px 0;
+    padding-left: 100px;
+}
+.header .burgerLine{
+    content: "";
+    height: 5px;
+    width: 40px;
+    background-color: #1B337D;
+    margin: 0 auto;
+    margin-bottom: 5px;
+}
+.header .menu{
+    /* max-width: 204px; */
+    width: 100vw;
+    /* height: 100vh; */
+    background-color: rgba(27,51,125,.22);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    /* display: none; */
+    /* padding: 80px 0; */
+    /* margin-left: 10px; */
+    backdrop-filter: blur(15px);
+    right: -45px;
+    top: 84px;
+    height: 0px;
+    transition: .5s;
+    opacity: 0;
+}
+.header .hamburger-wrap:hover .menu{
+    /* display: inline-block; */
+    width: 100vw;
+    height: 443px;
+    opacity: 1;
+}
+.header .hamburger-wrap:hover .menu ul{
+    display: block;
+}
+.header .menu ul{
+    display: none;
+}
+.header .menu li{
+    margin-bottom: 35px;
+    text-align: center;
+}
+.header .menu a{
+    color: #f2f2f2;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    letter-spacing: 0.3rem;
+    display: inline-block;
+    height: 25px;
+}
+.header .menu a:hover{
+    color: #1B337D;
+    border-bottom: 3px solid #1B337D;
+    box-sizing: border-box;
+    width: 1000px;
+}
+.header .menu .last{
+    margin-bottom: 0;
+}
+
+
+.footer{
+    height: 60px;
+    background-color: #D9CA9C;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footerLeft{
+    height: 100%;
+    margin-left: 15px;
+    margin-right: 20px;
+}
+.footerLeft img{
+    height: 100%;
+}
+.footerRight{
+    width: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 20px;
+    margin-left: auto;
+}
+.footerRight img{
+    width: 35px;
+    height: 35px;
+}
+.footer .add{
+    margin-right: 20px;
+}
+
+
+.newsPage{
+    background-color: #f2f2f2;
+    margin-top: 60px;
+}
+.newsPage .newsL{
+    position: relative;
+}
+.newsPage .newsL .text-bg{
+    content: "";
+    height: 60px;
+    max-width: 379px;
+    background-color: #D9CA9C;
+}
+.newsPage .newsL p{
+    font-size: 26px;
+    color: #370617;
+    font-weight: bold;
+    letter-spacing: .6rem;
+    position: absolute;
+    bottom: 45px;
+    left: 190px;
+    text-shadow: 0rem .4rem .4rem rgba(0,0,0,.25);
+}
+.newsPage .newsR{
+    width: 100%;
+}
+.newsPage hr{
+    margin-left: 390px;
+    margin-top: 25px;
+    margin-bottom: 30px;
+}
+.newsPage .newsText{
+    margin-left: 410px;
+    display: flex;
+    /* justify-content: space-between; */
+}
+.newsPage .newsText .left{
+    max-width: 110px;
+    color: #1B337D;
+}
+.newsPage .newsText .right{
+    max-width: 800px;
+    margin-left: 80px;
+    margin-right: 40px;
+}
+.newsPage .newsText li{
+    font-size: 15px;
+    margin-bottom: 20px;
+    letter-spacing: .3rem;
+    font-weight: bold;
+}
+.newsPage .newsR .more{
+    color: #370617;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: .3rem;
+    text-align: right;
+    margin-right: 40px;
+    margin-bottom: 183px;
+}
+.newsPage .newsR a{
+    text-decoration: none;
+    color: #370617;
+}
+
+.induPage{
+    min-height: 600px;
+    background-color: #1B337D;
+    display: flex;
+    justify-content: center;
+    /* margin-bottom: 190px; */
+}
+.induPage .induL{
+    max-width: 580px;
+    padding-top: 80px;
+}
+.induPage .induL h2{
+    font-size: 30px;
+    font-weight: bold;
+    color: #f2f2f2;
+    letter-spacing: .8rem;
+    text-align: center;
+}
+.induPage .induL .lineBox{
+    content: "";
+    background-color: #D9CA9C;
+    max-width: 500px;
+    height: 5px;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+.induPage .induL p{
+    font-size: 15px;
+    color: #f2f2f2;
+    text-align: center;
+    margin-bottom: 1em;
+    letter-spacing: .3rem;
+    line-height: 1.5rem;
+    font-weight:lighter;
+}
+.induPage .induR{
+    max-width: 700px;
+    margin-left: 40px;
+    margin-top: 60px;
+}
+.induPage .induR img{
+    width: 100%;
+    border: 5px solid #D9CA9C;
+    vertical-align: middle;
+}
+
+.linkPage{
+    margin-top: 100px;
+    padding-top: 90px;
+    margin-bottom: 189px;
+    /* background-image: url("/image/home_bg_1.png");
+    background-position: top;
+    background-size: contain; */
+}
+.linkPage .linkU{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px; 
+}
+.linkPage .linkD{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.linkPage .linkU .image{
+    max-width: 460px;
+    margin-right: 50px;   
+    box-shadow: -20px 20px 22px rgba(217, 202, 156,1);
+}
+.linkPage .linkD .image{
+    max-width: 460px;
+    margin-left: 50px;
+}
+.linkPage .image img{
+    width: 100%;
+    vertical-align: middle;
+}
+.linkPage .text a{
+    text-decoration: none;
+}
+.linkPage .text h3{
+    color: #9D0208;
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: .3rem;
+    margin-bottom: 25px;
+}
+.linkPage .text p{
+    color: #1B337D;
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 0.3rem;
+    line-height: 1.5rem;
+}
+.linkPage .linkD .text{
+    text-align: right;
+}
+
+.picPage{
+    display: flex;
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    animation-duration: 0;
+    animation-iteration-count: infinite;
+}
+.picPage .box1,.picPage .box2{
+    display: flex;
+    max-height: 368px;
+    width: 2523.7px;
+}
+.picPage img{
+    height: 100%;
+    margin-right: 80px;
+    object-fit: cover;
+    animation: initial;
+}
+@keyframes scroll{
+    from{transform: translateX(100%)}
+    to{transform: translateX(-100%)}
+  }
+  
+  @keyframes scroll2{
+    from{transform: translateX(0%)}
+    to{transform: translateX(-200%)}
+  }
+
+  .logo-wrapper{
+    display: flex;
+    animation: scroll 40s linear infinite;
+    animation-delay: -20s;
+}
+
+    .logo-wrapper:nth-child(2){
+    animation: scroll2 40s linear infinite;
+    }
+  
+.picPage:hover  .logo-wrapper,
+.picPage:hover  .logo-wrapper:nth-child(2) {
+        animation-play-state: paused;
+    
+}
+
+/* .carouselPage .marquee{
+    display: flex;
+    min-width: 1440px;
+    overflow: hidden;
+    position: relative;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.carouselPage .marquee .marqueeImg{
+    max-height: 368px;
+    animation: scroll 7s linear 0s infinite;
+    position: absolute;
+}
+
+.carouselPage .marquee .marqueeImg img{
+    height: 100%;
+} */
+
+
+
+/* .carouselPage .run{
+    display: flex;
+}
+.carouselPage ul{
+    max-height: 368px;
+    display: flex;
+}
+.carouselPage ul li{
+    margin-right: 80px;
+}
+.carouselPage img{
+    height: 100%;
+} */

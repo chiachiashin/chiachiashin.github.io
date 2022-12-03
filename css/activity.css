@@ -1,0 +1,157 @@
+.banner{
+    width: 100vw;
+    height: 100vh;
+    max-height: 368px;
+    background-image: url("/image/activity_banner.png");
+    background-position: center,center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgba(217,202,156,.5);
+    position: relative;
+}
+.banner p{
+    max-width: 163px;
+    color: #F2F2F2;
+    font-size: 32px;
+    padding: 168px 0;
+    text-align-last: justify;
+    margin: 0 auto;
+}
+.banner div{
+    content: "";
+    width: 100vw;
+    height: 100vh;
+    max-height: 368px;
+    position: absolute;
+    background-color: rgba(0, 0, 0,.2);
+    top: 0;
+    left: 0;
+}
+
+
+.nav{
+    max-width: 400px;
+    margin: 45px auto 120px;
+}
+.nav ul{
+    display: flex;
+    justify-content: space-between;
+}
+.nav a{
+    width: 80px;
+    height: 25px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    color: #1B337D;
+    font-weight: bold;
+    text-align-last: justify;
+}
+.nav li:nth-child(1) a{
+    width: 101px;
+}
+.nav a:hover{
+    color: #9D0208;
+    border-bottom: 4px solid #9D0208;
+    box-sizing: border-box;
+
+}
+
+
+#schedule{
+    display: flex;
+    margin-left: 5%;
+    justify-content: center;
+    margin-bottom: 80px;
+}
+#schedule .text{
+    max-width: 515px;
+    margin-right: 30px;
+}
+#schedule img{
+    width: 100%;
+}
+#schedule .pic{
+    max-width: 520px;
+}
+
+
+#video{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 140px;
+}
+#video .bo1{
+    display: flex;
+    flex-direction: column;
+}
+#video .box2{
+    display: flex;
+    flex-direction: column;
+}
+#video .video{
+    vertical-align: middle;
+}
+#video h3{
+    font-size: 16px;
+    color: #370617;
+    font-weight: bold;
+    letter-spacing: 0.3rem;
+    /* height: 22px; */
+    line-height: 22px;
+}
+#video .box1 {
+    margin-right: 60px;
+}
+#video .box1 h3,.box2 h3{
+    margin-top: 60px;
+}
+
+
+#history{
+    background-color: #1B337D;
+    text-align: center;
+    padding: 90px 291px 115px;
+}
+#history h2{
+    font-size: 24px;
+    margin-bottom: 70px;
+    color: #F2F2F2;
+    letter-spacing: 0.5rem;
+}
+#history img{
+    width: 100%;
+    max-width: 858px;
+}
+
+
+
+.bottom_nav{
+    background-color: #1B337D;
+    padding-bottom: 115px;
+}
+.bottom_nav ul{
+    max-width: 400px;
+    margin: 0 auto ;
+    display: flex;
+    justify-content: space-between;
+}
+.bottom_nav a{
+    width: 80px;
+    height: 25px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    color: #d9ca9c;
+    font-weight: bold;
+    text-align-last: justify;
+}
+.bottom_nav li:nth-child(1) a{
+    width: 101px;
+}
+.bottom_nav a:hover{
+    color: #d9d9d9;
+    border-bottom: 4px solid #D9D9D9;
+    box-sizing: border-box;
+
+}
