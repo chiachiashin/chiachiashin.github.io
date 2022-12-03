@@ -65,7 +65,7 @@
 }
 .line{
     content: "";
-    width: 1200px;
+    width: 85%;
     height: 1px;
     background-color: #D9CA9C;
     margin: 80px auto;
