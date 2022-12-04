@@ -18,13 +18,14 @@
     text-align-last: justify;
     margin: 0 auto;
 }
-.banner div{
+
+.banner div {
     content: "";
     width: 100vw;
     height: 100vh;
     max-height: 368px;
     position: absolute;
-    background-color: rgba(0, 0, 0,.2);
+    background-color: rgba(0, 0, 0, .2);
     top: 0;
     left: 0;
 }
@@ -34,7 +35,8 @@
     max-width: 832px;
     margin: 45px auto 150px;
 }
-.footer_nav{
+
+.footer_nav {
     margin: 0;
     margin: 150px auto 110px;
 }
@@ -393,16 +395,56 @@ span {
 
 
 #things {
-    margin-bottom: 150px;
+    width: 100vw;
 }
 
-#things .conten-bg .content-box .content1{
+#things .conten-bg {
+    background-image: url("/image/knows_things_bg.png");
+    background-size: cover;
+    padding-bottom: 150px;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+#things .conten-bg .content-box .content1 {
     position: relative;
+    height: 330px;
+    margin-bottom: 15px;
 }
-#things .conten-bg .content-box .content1 img{
-    
+
+#things .conten-bg .content-box .content1 img {
+    width: 235px;
+    height: 270px;
+    position: absolute;
+    z-index: 1;
+    left: 11%;
 }
-#things .conten-bg .content-box .content1 p{
+
+#things .conten-bg .content-box .content1 h2 {
+    color: #F2F2F2;
+    font-size: 36px;
+    letter-spacing: 0.3rem;
+    font-weight: lighter;
+    position: absolute;
+    left: 11%;
+    top: 34%;
+    margin-left: 270px;
+    z-index: 2;
+}
+
+#things .conten-bg .content-box .content1 h3 {
+    color: #F2F2F2;
+    font-size: 24px;
+    letter-spacing: 0.4rem;
+    font-weight: bold;
+    position: absolute;
+    left: 11%;
+    top: 36.5%;
+    margin-left: 330px;
+    z-index: 2;
+}
+
+#things .conten-bg .content-box .content1 p {
     width: 536px;
     height: 246px;
     padding: 75px 41px 46px 145px;
@@ -413,7 +455,155 @@ span {
     box-sizing: border-box;
     background-image: url("/image/knows_things1_bg.png");
     background-size: contain;
+    position: absolute;
+    left: 11%;
+    bottom: 0;
+    margin-left: 124px;
+}
 
+#things .conten-bg .content-box .content1 a {
+    text-decoration: none;
+    color: #F2F2F2;
+    font-size: 11px;
+    letter-spacing: 0.3rem;
+    font-weight: bold;
+    position: absolute;
+    left: 11%;
+    bottom: 8%;
+    margin-left: 570px;
+}
+
+#things .conten-bg .content-box .content2 {
+    position: relative;
+    height: 305px;
+    margin-bottom: 30px;
+}
+
+#things .conten-bg .content-box .content2 img {
+    width: 305px;
+    height: 210px;
+    position: absolute;
+    z-index: 1;
+    right: 11%;
+}
+
+#things .conten-bg .content-box .content2 h2 {
+    color: #F2F2F2;
+    font-size: 36px;
+    letter-spacing: 0.3rem;
+    font-weight: lighter;
+    position: absolute;
+    right: 11%;
+    top: 29.5%;
+    margin-right: 576px;
+    z-index: 2;
+}
+
+#things .conten-bg .content-box .content2 h3 {
+    color: #F2F2F2;
+    font-size: 24px;
+    letter-spacing: 0.4rem;
+    font-weight: bold;
+    position: absolute;
+    right: 11%;
+    top: 32.4%;
+    margin-right: 530px;
+    z-index: 2;
+}
+
+#things .conten-bg .content-box .content2 p {
+    width: 421px;
+    height: 247px;
+    padding: 82px 67px 44px 60px;
+    font-size: 14px;
+    color: #370617;
+    letter-spacing: .25rem;
+    line-height: 1.75;
+    box-sizing: border-box;
+    background-image: url("/image/knows_things2_bg.png");
+    background-size: contain;
+    position: absolute;
+    right: 11%;
+    bottom: 0;
+    margin-right: 264px;
+}
+
+#things .conten-bg .content-box .content2 a {
+    text-decoration: none;
+    color: #F2F2F2;
+    font-size: 11px;
+    letter-spacing: 0.3rem;
+    font-weight: bold;
+    position: absolute;
+    right: 11%;
+    bottom: 8%;
+    margin-right: 330px;
+}
+
+#things .conten-bg .content-box .content3 {
+    position: relative;
+    height: 356px;
+}
+
+#things .conten-bg .content-box .content3 img {
+    width: 317px;
+    height: 236px;
+    position: absolute;
+    z-index: 1;
+    left: 13%;
+}
+
+#things .conten-bg .content-box .content3 h2 {
+    color: #F2F2F2;
+    font-size: 36px;
+    letter-spacing: 0.3rem;
+    font-weight: lighter;
+    position: absolute;
+    left: 13%;
+    top: 28.6%;
+    margin-left: 354px;
+    z-index: 2;
+}
+
+#things .conten-bg .content-box .content3 h3 {
+    color: #F2F2F2;
+    font-size: 24px;
+    letter-spacing: 0.4rem;
+    font-weight: bold;
+    position: absolute;
+    left: 13%;
+    top: 30.5%;
+    margin-left: 420px;
+    z-index: 2;
+}
+
+#things .conten-bg .content-box .content3 p {
+    width: 424px;
+    height: 283px;
+    padding: 91px 41px 63px 128px;
+    font-size: 14px;
+    color: #370617;
+    letter-spacing: .24rem;
+    line-height: 1.75;
+    box-sizing: border-box;
+    background-image: url("/image/knows_things3_bg.png");
+    background-size: contain;
+    position: absolute;
+    left: 13%;
+    bottom: 0;
+    margin-left: 223px;
+}
+
+#things .conten-bg .content-box .content3 a {
+    text-decoration: none;
+    color: #F2F2F2;
+    font-size: 11px;
+    letter-spacing: 0.3rem;
+    font-weight: bold;
+    position: absolute;
+    left: 13%;
+    bottom: 8%;
+    margin-left: 558px;
 }
 
 
@@ -426,7 +616,7 @@ span {
 }
 
 
-.culture_picPage{
+.culture_picPage {
     display: flex;
     position: relative;
     width: 100%;
@@ -434,40 +624,53 @@ span {
     animation-duration: 0;
     animation-iteration-count: infinite;
 }
-.culture_picPage .box1,.culture_picPage .box2{
+
+.culture_picPage .box1, .culture_picPage .box2 {
     display: flex;
     max-height: 360px;
     width: 4096px;
     margin-right: 11px;
 }
-.culture_picPage img{
+
+.culture_picPage img {
     height: 100%;
     /* margin-right: 1000px; */
     object-fit: cover;
     animation: initial;
 }
-@keyframes scroll{
-    from{transform: translateX(100%)}
-    to{transform: translateX(-100%)}
-  }
-  
-  @keyframes scroll2{
-    from{transform: translateX(0%)}
-    to{transform: translateX(-200%)}
-  }
 
-  .logo-wrapper{
+@keyframes scroll {
+    from {
+        transform: translateX(100%)
+    }
+
+    to {
+        transform: translateX(-100%)
+    }
+}
+
+@keyframes scroll2 {
+    from {
+        transform: translateX(0%)
+    }
+
+    to {
+        transform: translateX(-200%)
+    }
+}
+
+.logo-wrapper {
     display: flex;
     animation: scroll 60s linear infinite;
     animation-delay: -30s;
 }
 
-    .logo-wrapper:nth-child(2){
+.logo-wrapper:nth-child(2) {
     animation: scroll2 60s linear infinite;
-    }
-  
-.culture_picPage:hover  .logo-wrapper,
-.culture_picPage:hover  .logo-wrapper:nth-child(2) {
-        animation-play-state: paused;
-    
+}
+
+.culture_picPage:hover .logo-wrapper,
+.culture_picPage:hover .logo-wrapper:nth-child(2) {
+    animation-play-state: paused;
+
 }
