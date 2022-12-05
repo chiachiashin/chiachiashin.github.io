@@ -72,6 +72,88 @@
     box-sizing: border-box;
 }
 
+
+
+
+
+
+#tab {
+    width: 100vw;
+    /* position: relative; */
+}
+/*頁籤div內容*/
+.temple01_content,
+.temple02_content,
+.temple03_content,
+.temple04_content,
+.temple05_content,
+.temple06_content,
+.temple07_content,
+.temple08_content,
+.temple09_content,
+.temple10_content,
+.temple11_content {
+    height: 0;
+    overflow: hidden;
+    visibility: hidden;
+}
+/*第一筆的底色*/
+span:target~#tab>div ul li:first-child a {
+    color: #1B337D;
+    border: 0;
+}
+span:target~#tab>div.temple01_content {
+    visibility: hidden;
+    height: 0;
+    margin: 0;
+}
+.nav{
+    visibility: visible;
+}
+.footer_nav ul li:first-child a{
+    color: #1B337D;
+    border: 0;
+}
+/*頁籤變換&第一筆*/
+span~#tab>div ul li:first-child a,
+#temple01:target~#tab>div ul li a[href$="#temple01"],
+#temple02:target~#tab>div ul li a[href$="#temple02"],
+#temple03:target~#tab>div ul li a[href$="#temple03"],
+#temple04:target~#tab>div ul li a[href$="#temple04"],
+#temple05:target~#tab>div ul li a[href$="#temple05"],
+#temple06:target~#tab>div ul li a[href$="#temple06"],
+#temple07:target~#tab>div ul li a[href$="#temple07"],
+#temple08:target~#tab>div ul li a[href$="#temple08"],
+#temple09:target~#tab>div ul li a[href$="#temple09"],
+#temple10:target~#tab>div ul li a[href$="#temple10"],
+#temple11:target~#tab>div ul li a[href$="#temple11"] {
+    color: #9D0208;
+    border-bottom: 4px solid #9D0208;
+    box-sizing: border-box;
+}
+/*頁籤內容顯示&第一筆*/
+span~#tab>div.temple01_content,
+#temple01:target~#tab>div.temple01_content,
+#temple02:target~#tab>div.temple02_content,
+#temple03:target~#tab>div.temple03_content,
+#temple04:target~#tab>div.temple04_content,
+#temple05:target~#tab>div.temple05_content,
+#temple06:target~#tab>div.temple06_content,
+#temple07:target~#tab>div.temple07_content,
+#temple08:target~#tab>div.temple08_content,
+#temple09:target~#tab>div.temple09_content,
+#temple10:target~#tab>div.temple10_content,
+#temple11:target~#tab>div.temple11_content {
+    visibility: visible;
+    height: 100%;
+}
+span {
+    display: none;
+}
+
+
+
+
 .temple_img{
     max-width: 820px;
     display: flex;
@@ -147,7 +229,6 @@
     text-align: justify;
     margin-bottom: 24px;
 }
-
 .temple_arch{
     text-align: center;
     max-width: 920px;
@@ -173,7 +254,7 @@
     max-width: 755px;
     margin: 60px auto 75px;
 }
-.temple_arch_content p{
+.temple_arch_content .arch_text p{
     max-width: 700px;
     color: #F2F2F2;
     font-size: 14px;
