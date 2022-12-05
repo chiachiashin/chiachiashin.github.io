@@ -80,6 +80,7 @@
 .title img {
     width: 100%;
     position: absolute;
+    left: 3%;
 }
 
 .title h2 {
