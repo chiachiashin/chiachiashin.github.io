@@ -13,10 +13,11 @@
 .banner p {
     max-width: 163px;
     color: #F2F2F2;
-    font-size: 32px;
+    font-size: 26px;
     padding: 168px 0;
     text-align-last: justify;
     margin: 0 auto;
+    font-weight: bold;
 }
 
 .banner div {
@@ -30,3 +31,120 @@
     left: 0;
 }
 
+.information h3{
+    font-size: 18px;
+    color: #1B337D;
+    font-weight: bold;
+    letter-spacing: 0.3em;
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 15px;
+}
+.information p{
+    font-size: 14px;
+    color: #370617;
+    letter-spacing: 0.3em;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.information a{
+    font-size: 14px;
+    letter-spacing: 0.3em;
+    /* text-decoration: none; */
+    color: #370617;
+    text-align: center;
+    /* line-height: 30px; */
+}
+span a{
+    text-decoration: none;
+}
+.information span{
+    font-size: 14px;
+    color: #1B337D;
+    letter-spacing: 0.3em;
+    text-align: center;
+}
+.information p>span{
+    color: #9D0208;
+}
+.information img{
+    /* width: 20px; */
+    margin-right: 10px;
+}
+.information>div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 45px;
+    margin-bottom: 90px;
+}
+.facebook{
+    margin-left: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.map{
+    margin-bottom: 93px;
+    width: 100vw;
+}
+
+
+
+
+.card{
+    max-width: 910px;
+    height: 100%;
+    height: 400px;
+    position: relative;
+    margin: 0 auto 168px;
+}
+.size{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backface-visibility: hidden;
+    transition: transform 0.5s ease;
+}
+.front{
+    transform: rotateY(0deg);
+}
+.back{
+    transform: rotateY(-180deg);
+}
+.card:hover .front{
+    transform: rotateY(180deg);
+}
+.card:hover .back{
+    transform: rotateY(0deg);
+}
+.card img{
+    width: 100%;
+}
+img.icon{
+    width: 135px;
+    height: 40px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.button{
+    text-align: center;
+    margin-bottom: 38px;
+}
+input{
+    width: 96px;
+    height: 37px;
+    color: #370617;
+    border-radius: 37px;
+    border: none;
+    background: #D9D9D9;
+    /* letter-spacing: 0.3rem; */
+    font-size: 12px;
+    font-weight: bold;
+    padding: 2px 17px 0;
+    text-align-last: justify;
+}
