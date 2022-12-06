@@ -1,0 +1,373 @@
+.banner {
+    width: 100vw;
+    height: 100vh;
+    max-height: 368px;
+    background-image: url("/image/food_banner.jpg");
+    background-position: center, center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgba(217, 202, 156, .5);
+    position: relative;
+}
+
+.banner p {
+    max-width: 163px;
+    color: #F2F2F2;
+    font-size: 32px;
+    padding: 168px 0;
+    text-align-last: justify;
+    margin: 0 auto;
+}
+
+.banner div {
+    content: "";
+    width: 100vw;
+    height: 100vh;
+    max-height: 368px;
+    position: absolute;
+    background-color: rgba(0, 0, 0, .2);
+    top: 0;
+    left: 0;
+}
+
+
+.nav {
+    max-width: 330px;
+    margin: 45px auto 120px;
+}
+.footer_nav {
+    margin: 0;
+    margin: 72px auto;
+}
+.nav ul {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.nav a {
+    width: 38px;
+    height: 25px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    color: #1B337D;
+    font-weight: bold;
+    text-align-last: justify;
+}
+.nav li:nth-child(3) a {
+    width: 60px;
+}
+.nav a:hover {
+    color: #9D0208;
+    border-bottom: 4px solid #9D0208;
+    box-sizing: border-box;
+}
+
+
+.title {
+    position: relative;
+    max-width: 281px;
+    height: 100vh;
+    max-height: 57px;
+    margin-bottom: 90px;
+}
+
+.title img {
+    width: 100%;
+    position: absolute;
+}
+
+.title h2 {
+    position: absolute;
+    color: #370617;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 0.5rem;
+    left: 30%;
+    top: 45%;
+    text-shadow: 0rem .4rem .4rem rgba(0, 0, 0, .25);
+}
+
+#food,#dessert,#gift{
+    max-width: 1019px;
+    margin: 0 auto 140px;
+}
+#food_page1,#food_page2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 1020px;
+}
+.dessert_content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 1020px;
+}
+.gift_content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 1020px;
+}
+h3{
+    font-size: 15px;
+    /* font-weight: bold; */
+    color: #fff;
+    letter-spacing: 0.3rem;
+    text-align: center;
+    padding-top: 10px;
+}
+hr{
+    width: 65%;
+    color: #fff;
+}
+#food_page1>a>div>div,
+#food_page2>a>div>div,
+.dessert_content>a>div>div,
+.gift_content>a>div>div {
+    width: 100%;
+    height: 30%;
+    background: rgba(0, 0, 0,.4);
+    position: absolute;
+    bottom: 0;
+    transition: all .5s;
+}
+#food .wrapper a,
+#dessert a,
+#gift a {
+    /* display: block; */
+    width: 100%;
+    max-width: 249px;
+    text-decoration: none;
+    margin: 0 15px;
+    margin-bottom: 30px;
+}
+
+#food a:hover .food01 div,
+#food a:hover .food02 div,
+#food a:hover .food03 div,
+#food a:hover .food04 div,
+#food a:hover .food05 div,
+#food a:hover .food06 div,
+#food a:hover .food07 div,
+#food a:hover .food08 div,
+#food a:hover .food09 div,
+#food a:hover .food10 div,
+#food a:hover .food11 div,
+#dessert a:hover .dessert01 div,
+#dessert a:hover .dessert02 div,
+#dessert a:hover .dessert03 div,
+#dessert a:hover .dessert04 div,
+#dessert a:hover .dessert05 div,
+#dessert a:hover .dessert06 div,
+#gift a:hover .gift01 div,
+#gift a:hover .gift02 div {
+    height: 50%;
+}
+
+/* 左右換頁設定*/
+.content{
+    width: 1020px;
+    height: 657px;
+    overflow: hidden;
+}
+.wrapper{
+    width: 2040px;
+    display: flex;
+}
+.button{
+    width: 1020px;
+    position: relative;
+
+}
+.button a:nth-child(1){
+    position: absolute;
+    left: 0; 
+    margin-top: 300px;
+}
+.button a:nth-child(2){
+    position: absolute;
+    right: 0;
+    margin-top: 300px;
+}
+.food01{
+    width: 100%;
+    height: 100vh;
+    max-height: 189px;
+    position: relative;
+    background-image: url("/image/food_food01.jpg");
+    background-size: cover;
+    background-position: center center;
+}
+.food02{
+    width: 100%;
+    height: 100vh;
+    max-height: 189px;
+    position: relative;
+    background-image: url("/image/food_food02.jpg");
+    background-size: cover;
+    background-position: center center;
+}
+.food03{
+    width: 100%;
+    height: 100vh;
+    max-height: 189px;
+    position: relative;
+    background-image: url("/image/food_food03.jpg");
+    background-size: cover;
+    background-position: center center;
+}
+.food04{
+    width: 100%;
+    height: 100vh;
+    max-height: 189px;
+    position: relative;
+    background-image: url("/image/food_food04.jpg");
+    background-size: cover;
+    background-position: center center;
+}
+.food05{
+    width: 100%;
+    height: 100vh;
+    max-height: 189px;
+    position: relative;
+    background-image: url("/image/food_food05.jpg");
+    background-size: cover;
+    background-position: center center;
+}
+.food06{
+    width: 100%;
+    height: 100vh;
+    max-height: 189px;
+    position: relative;
+    background-image: url("/image/food_food06.jpg");
+    background-size: cover;
+    background-position: left 35% center;
+}
+.food07{
+    width: 100%;
+    height: 100vh;
+    max-height: 189px;
+    position: relative;
+    background-image: url("/image/food_food07.jpg");
+    background-size: cover;
+    background-position: center center;
+}
+.food08{
+    width: 100%;
+    height: 100vh;
+    max-height: 189px;
+    position: relative;
+    background-image: url("/image/food_food08.jpg");
+    background-size: cover;
+    background-position: center center;
+}
+.food09{
+    width: 100%;
+    height: 100vh;
+    max-height: 189px;
+    position: relative;
+    background-image: url("/image/food_food09.jpg");
+    background-size: cover;
+    background-position: center center;
+}
+.food10{
+    width: 100%;
+    height: 100vh;
+    max-height: 189px;
+    position: relative;
+    background-image: url("/image/food_food10.jpg");
+    background-size: cover;
+    background-position: center center;
+}
+.food11{
+    width: 100%;
+    height: 100vh;
+    max-height: 189px;
+    position: relative;
+    background-image: url("/image/food_food11.jpg");
+    background-size: cover;
+    background-position: center center;
+}
+.dessert01{
+    width: 100%;
+    height: 100vh;
+    max-height: 189px;
+    position: relative;
+    background-image: url("/image/food_dessert01.jpg");
+    background-size: cover;
+    background-position: center center;
+}
+.dessert02{
+    width: 100%;
+    height: 100vh;
+    max-height: 189px;
+    position: relative;
+    background-image: url("/image/food_dessert02.jpg");
+    background-size: cover;
+    background-position: center center;
+}
+.dessert03{
+    width: 100%;
+    height: 100vh;
+    max-height: 189px;
+    position: relative;
+    background-image: url("/image/food_dessert03.jpg");
+    background-size: cover;
+    background-position: center center;
+}
+.dessert04{
+    width: 100%;
+    height: 100vh;
+    max-height: 189px;
+    position: relative;
+    background-image: url("/image/food_dessert04.jpg");
+    background-size: cover;
+    background-position: center center;
+}
+.dessert05{
+    width: 100%;
+    height: 100vh;
+    max-height: 189px;
+    position: relative;
+    background-image: url("/image/food_dessert05.jpg");
+    background-size: cover;
+    background-position: center center;
+}
+.dessert06{
+    width: 100%;
+    height: 100vh;
+    max-height: 189px;
+    position: relative;
+    background-image: url("/image/food_dessert06.jpg");
+    background-size: cover;
+    background-position: center center;
+}
+.gift01{
+    width: 100%;
+    height: 100vh;
+    max-height: 189px;
+    position: relative;
+    background-image: url("/image/food_gift01.jpg");
+    background-size: cover;
+    background-position: center center;
+}
+.gift02{
+    width: 100%;
+    height: 100vh;
+    max-height: 189px;
+    position: relative;
+    background-image: url("/image/food_gift02.jpg");
+    background-size: cover;
+    background-position: center center;
+}
+.gift03{
+    width: 100%;
+    height: 100vh;
+    max-height: 189px;
+    position: relative;
+    /* background-image: url("/image/food_gift02.jpg");
+    background-size: cover;
+    background-position: center center; */
+}

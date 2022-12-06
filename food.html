@@ -4,10 +4,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>朝天宮-廟會</title>
+    <title>朝天宮-周邊美食</title>
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="./css/traffic.css">
+    <link rel="stylesheet" href="./css/food.css">
+    <script src="/lib/jquery-1.11.3.min.js"></script>
+    <script src="/lib/jquery.localScroll.min.js"></script>
+    <script src="/lib/jquery.scrollTo.min.js"></script>
 
 </head>
 
@@ -16,10 +19,10 @@
         <div class="homeLogo">
             <div class="image">
                 <a href="/index.html">
-                <img src="./image/logo.png" alt="朝天宮">
-            </a>
+                    <img src="./image/logo.png" alt="朝天宮">
+                </a>
             </div>
-            
+
             <div class="hamburger-wrap">
                 <div class="hamburger">
                     <div class="burgerLine"></div>
@@ -39,6 +42,206 @@
             </div>
         </div>
     </div>
+    <div class="banner">
+        <div>
+            <p>周邊美食</p>
+        </div>
+    </div>
+    <div class="nav">
+        <ul>
+            <li><a href="#food">食物</a></li>
+            <li><a href="#dessert">甜品</a></li>
+            <li><a href="#gift">伴手禮</a></li>
+        </ul>
+    </div>
+    <div id="food">
+        <div class="title">
+            <img src="/image/title_bg.png" alt="">
+            <h2>食物</h2>
+        </div>
+        <div class="button">
+            <a href="#food_page1"><img src="/image/icon_left.svg" alt=""></a>
+            <a href="#food_page2"><img src="/image/icon_right.svg" alt=""></a>
+        </div>
+        <div class="content">
+            <div class="wrapper">
+                <div id="food_page1">
+                    <a href="./food/food01.html">
+                        <div class="food01">
+                            <div>
+                                <h3>阿婆煎盤粿</h3>
+                                <hr>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="./food/food02.html">
+                        <div class="food02">
+                            <div>
+                                <h3>陳家煎盤粿</h3>
+                                <hr>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="./food/food03.html">
+                        <div class="food03">
+                            <div>
+                                <h3>華勝煎盤粿</h3>
+                                <hr>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="./food/food04.html">
+                        <div class="food04">
+                            <div>
+                                <h3>公園麵線糊</h3>
+                                <hr>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="./food/food05.html">
+                        <div class="food05">
+                            <div>
+                                <h3>阿豐油飯麵線糊</h3>
+                                <hr>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="./food/food06.html">
+                        <div class="food06">
+                            <div>
+                                <h3>煌明假魚肚</h3>
+                                <hr>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="./food/food07.html">
+                        <div class="food07">
+                            <div>
+                                <h3>李記生炒鴨肉羹</h3>
+                                <hr>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="./food/food08.html">
+                        <div class="food08">
+                            <div>
+                                <h3>福安鴨肉飯</h3>
+                                <hr>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="./food/food09.html">
+                        <div class="food09">
+                            <div>
+                                <h3>紅麥田炸雞</h3>
+                                <hr>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div id="food_page2">
+                    <a href="./food/food10.html">
+                        <div class="food10">
+                            <div>
+                                <h3>阿等土豆油飯</h3>
+                                <hr>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="./food/food11.html">
+                        <div class="food11">
+                            <div>
+                                <h3>一郎土魠魚羹</h3>
+                                <hr>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="dessert">
+        <div class="title">
+            <img src="/image/title_bg.png" alt="">
+            <h2>甜品</h2>
+        </div>
+        <div class="dessert_content">
+            <a href="./food/dessert01.html">
+                <div class="dessert01">
+                    <div>
+                        <h3>北港圓仔湯</h3>
+                        <hr>
+                    </div>
+                </div>
+            </a>
+            <a href="./food/dessert02.html">
+                <div class="dessert02">
+                    <div>
+                        <h3>其福果汁攤</h3>
+                        <hr>
+                    </div>
+                </div>
+            </a>
+            <a href="./food/dessert03.html">
+                <div class="dessert03">
+                    <div>
+                        <h3>北港秀山冰店</h3>
+                        <hr>
+                    </div>
+                </div>
+            </a><a href="./food/dessert04.html">
+                <div class="dessert04">
+                    <div>
+                        <h3>保生堂-漢方咖啡館</h3>
+                        <hr>
+                    </div>
+                </div>
+            </a><a href="./food/dessert05.html">
+                <div class="dessert05">
+                    <div>
+                        <h3>神仙酸梅湯</h3>
+                        <hr>
+                    </div>
+                </div>
+            </a><a href="./food/dessert06.html">
+                <div class="dessert06">
+                    <div>
+                        <h3>映星園咖啡自家烘焙</h3>
+                        <hr>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+    <div id="gift">
+        <div class="title">
+            <img src="/image/title_bg.png" alt="">
+            <h2>伴手禮</h2>
+        </div>
+            <div class="gift_content">
+                <a href="./food/gift01.html">
+                    <div class="gift01">
+                        <div>
+                            <h3>日興堂囍餅</h3>
+                            <hr>
+                        </div>
+                    </div>
+                </a>
+                <a href="./food/gift02.html">
+                    <div class="gift02">
+                        <div>
+                            <h3>祥記花生酥</h3>
+                            <hr>
+                        </div>
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="gift03">
+                    </div>
+                </a>
+            </div>
+
+    </div>
     <div class="footer">
         <div class="footerLeft">
             <img src="./image/footerlogo.png" alt="">
@@ -51,5 +254,14 @@
         </div>
     </div>
 </body>
+<script>
+    $(function () {
+        $('.button').localScroll({
+            target: '.content',    // 捲動的目標(顯示的區域)
+            axis: 'x',               // 水平捲動
+            duration: 500            // 捲動速度
+        });
+    });
+</script>
 
 </html>
