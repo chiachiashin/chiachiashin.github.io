@@ -37,7 +37,7 @@
 }
 .footer_nav {
     margin: 0;
-    margin: 72px auto;
+    margin: 251px auto 72px;
 }
 .nav ul {
     display: flex;

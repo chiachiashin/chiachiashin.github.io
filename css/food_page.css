@@ -1,0 +1,32 @@
+.banner {
+    width: 100vw;
+    height: 100vh;
+    max-height: 368px;
+    background-image: url("/image/food_food01_banner.jpg");
+    background-position: center, center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgba(217, 202, 156, .5);
+    position: relative;
+}
+
+.banner p {
+    max-width: 163px;
+    color: #F2F2F2;
+    font-size: 32px;
+    padding: 168px 0;
+    text-align-last: justify;
+    margin: 0 auto;
+}
+
+.banner div {
+    content: "";
+    width: 100vw;
+    height: 100vh;
+    max-height: 368px;
+    position: absolute;
+    background-color: rgba(0, 0, 0, .2);
+    top: 0;
+    left: 0;
+}
+
