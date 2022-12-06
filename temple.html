@@ -7,7 +7,10 @@
     <title>朝天宮-宮殿巡禮</title>
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="./css/temple.css">
+    <link rel="stylesheet" href="./css/temple_jq_scrollto.css">
+    <script src="/lib/jquery-1.11.3.min.js"></script>
+    <script src="/lib/jquery.localScroll.min.js"></script>
+    <script src="/lib/jquery.scrollTo.min.js"></script>
 
 </head>
 
@@ -44,36 +47,24 @@
             <p>宮殿巡禮</p>
         </div>
     </div>
+    <div class="nav">
+        <ul>
+            <li><a href="#temple01">文化大樓</a></li>
+            <li><a href="#temple02">三川殿</a></li>
+            <li><a href="#temple03">拜殿</a></li>
+            <li><a href="#temple04">福德正神殿</a></li>
+            <li><a href="#temple05">聖母殿</a></li>
+            <li><a href="#temple06">註生娘娘殿</a></li>
+            <li><a href="#temple07">文昌殿</a></li>
+            <li><a href="#temple08">觀音佛祖殿</a></li>
+            <li><a href="#temple09">三官殿</a></li>
+            <li><a href="#temple10">聖父母殿</a></li>
+            <li><a href="#temple11">光明殿</a></li>
+        </ul>
+    </div>
     <div class="content">
-        <span id="temple01">文化大樓</span>
-        <span id="temple02">三川殿</span>
-        <span id="temple03">拜殿</span>
-        <span id="temple04">福德正神殿</span>
-        <span id="temple05">聖母殿</span>
-        <span id="temple06">註生娘娘殿</span>
-        <span id="temple07">文昌殿</span>
-        <span id="temple08">觀音佛祖殿</span>
-        <span id="temple09">三官殿</span>
-        <span id="temple10">聖父母殿</span>
-        <span id="temple11">光明殿</span>
         <div id="tab">
-            <div class="nav">
-                <ul>
-                    <li><a href="#temple01">文化大樓</a></li>
-                    <li><a href="#temple02">三川殿</a></li>
-                    <li><a href="#temple03">拜殿</a></li>
-                    <li><a href="#temple04">福德正神殿</a></li>
-                    <li><a href="#temple05">聖母殿</a></li>
-                    <li><a href="#temple06">註生娘娘殿</a></li>
-                    <li><a href="#temple07">文昌殿</a></li>
-                    <li><a href="#temple08">觀音佛祖殿</a></li>
-                    <li><a href="#temple09">三官殿</a></li>
-                    <li><a href="#temple10">聖父母殿</a></li>
-                    <li><a href="#temple11">光明殿</a></li>
-                </ul>
-            </div>
-
-            <div class="temple01_content">
+            <div id="temple01">
                 <div class="temple_img">
                     <img src="/image/temple01_1.jpg" alt="">
                     <img src="/image/temple01_2.jpg" alt="">
@@ -159,10 +150,10 @@
 
                 </div>
             </div>
-            <div class="temple02_content"></div>
-            <div class="temple03_content"></div>
-            <div class="temple04_content"></div>
-            <div class="temple05_content">
+            <div id="temple02"></div>
+            <div id="temple03"></div>
+            <div id="temple04"></div>
+            <div id="temple05">
                 <div class="temple_img">
                     <img src="/image/temple01_1.jpg" alt="">
                     <img src="/image/temple01_2.jpg" alt="">
@@ -248,30 +239,28 @@
 
                 </div>
             </div>
-            <div class="temple06_content"></div>
-            <div class="temple07_content"></div>
-            <div class="temple08_content"></div>
-            <div class="temple09_content"></div>
-            <div class="temple10_content"></div>
-            <div class="temple11_content"></div>
-            <div class="nav footer_nav">
-                <ul>
-                    <li><a href="#temple01">文化大樓</a></li>
-                    <li><a href="#temple02">三川殿</a></li>
-                    <li><a href="#temple03">拜殿</a></li>
-                    <li><a href="#temple04">福德正神殿</a></li>
-                    <li><a href="#temple05">聖母殿</a></li>
-                    <li><a href="#temple06">註生娘娘殿</a></li>
-                    <li><a href="#temple07">文昌殿</a></li>
-                    <li><a href="#temple08">觀音佛祖殿</a></li>
-                    <li><a href="#temple09">三官殿</a></li>
-                    <li><a href="#temple10">聖父母殿</a></li>
-                    <li><a href="#temple11">光明殿</a></li>
-                </ul>
-            </div>
-
+            <div id="temple06"></div>
+            <div id="temple07"></div>
+            <div id="temple08"></div>
+            <div id="temple09"></div>
+            <div id="temple10"></div>
+            <div id="temple11"></div>
         </div>
-
+    </div>
+    <div class="nav footer_nav">
+        <ul>
+            <li><a href="#temple01">文化大樓</a></li>
+            <li><a href="#temple02">三川殿</a></li>
+            <li><a href="#temple03">拜殿</a></li>
+            <li><a href="#temple04">福德正神殿</a></li>
+            <li><a href="#temple05">聖母殿</a></li>
+            <li><a href="#temple06">註生娘娘殿</a></li>
+            <li><a href="#temple07">文昌殿</a></li>
+            <li><a href="#temple08">觀音佛祖殿</a></li>
+            <li><a href="#temple09">三官殿</a></li>
+            <li><a href="#temple10">聖父母殿</a></li>
+            <li><a href="#temple11">光明殿</a></li>
+        </ul>
     </div>
 
 
@@ -286,6 +275,15 @@
             <img src="./image/icon _facebook.svg" alt="">
         </div>
     </div>
+    <script>
+        $(function () {
+            $('.nav').localScroll({
+                target: '.content',    // 捲動的目標(顯示的區域)
+                axis: 'x',               // 水平捲動
+                duration: 500            // 捲動速度
+            });
+        });
+    </script>
 </body>
 
 </html>
