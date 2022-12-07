@@ -10,39 +10,12 @@
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/knows.css">
     <link rel="stylesheet" href="./lib/lightbox.css">
+    <link rel="stylesheet" href="lib/swiper-bundle.min.css">
     <script type="text/javascript" src="./lib/jquery-1.11.3.min.js"></script>
     <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
     <script type="text/javascript" src="/lib/slick/slick.min.js"></script>
     <script src="/lib/lightbox-plus-jquery.js"></script>
     <script src="/lib/lightbox.js"></script>
-    <script>
-        $('.process_content').slick({
-            centerMode: true,
-            centerPadding: '60px',
-            slidesToShow: 3,
-            responsive: [
-                {
-                    breakpoint: 768,
-                    settings: {
-                        arrows: false,
-                        centerMode: true,
-                        centerPadding: '40px',
-                        slidesToShow: 3
-                    }
-                },
-                {
-                    breakpoint: 480,
-                    settings: {
-                        arrows: false,
-                        centerMode: true,
-                        centerPadding: '40px',
-                        slidesToShow: 1
-                    }
-                }
-            ]
-        });
-        // $('.single-item').slick();
-    </script>
 </head>
 
 <body>
@@ -504,5 +477,27 @@
 
     
 </body>
-
+<script>
+    $(document).ready(function(){
+        /*
+        $('.process_content').slick({
+            centerMode: true,
+            slidesToShow: 3,
+            autoplay: true,
+            slidesToScroll: 1,
+        });
+        */
+       var swiper = new Swiper(".process_content",{
+        slidesPerView: 3,
+        spaceBetween: 100,
+        centeredSlides: true,
+        loop: true,
+        loopFillGroupWithBlank: true,
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+       })
+    });
+    </script> 
 </html>
