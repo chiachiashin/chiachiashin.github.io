@@ -677,3 +677,6 @@ span {
     animation-play-state: paused;
 
 }
+html{
+    scroll-behavior: smooth;
+  }
