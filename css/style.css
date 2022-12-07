@@ -127,7 +127,7 @@ body{
     /* margin-left: 10px; */
     backdrop-filter: blur(15px);
     right: -45px;
-    top: 84px;
+    top: 83px;
     height: 0px;
     transition: .5s;
     opacity: 0;
