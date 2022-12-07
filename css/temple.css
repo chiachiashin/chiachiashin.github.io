@@ -96,7 +96,6 @@
 #temple10,
 #temple11 {
     width: 820px;
-    height: 100%;
 }
 
 
@@ -127,7 +126,7 @@
     margin: 0 auto 20px;
 }
 .vedio{
-    max-width: 820px;
+    max-width: 819px;
     margin: 0 auto;
     /* border: 1px solid #000; */
 }
@@ -227,14 +226,27 @@
     margin: 82px 0 82px;
 }
 
-#temple01 .title{
+#temple01 .title,
+#temple02 .title {
     margin-bottom: 50px;
 }
 
-#temple01 .temple_content_text p{
+#temple01 .temple_content_text p,
+#temple02 .temple_content_text p{
     text-align: center;
     font-weight: 500;
 }
-#temple01_img360{
+#temple01_img360,
+#temple02_img360,
+#temple03_img360 {
     margin-bottom: 0;
+}
+#temple02 .temple_content_text{
+    margin-bottom: 87px;
+}
+#temple02 .temple_arch_content>img{
+margin-bottom: 0;
+}
+#temple02 .temple_arch_content .arch_img img{
+    margin: 65px 0 82px;
 }
