@@ -8,10 +8,11 @@
     <link rel="icon" href="./ico/temple.ico">
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="./css/temple_jq_scrollto.css">
+    <link rel="stylesheet" href="./css/temple.css">
     <script src="/lib/jquery-1.11.3.min.js"></script>
     <script src="/lib/jquery.localScroll.min.js"></script>
     <script src="/lib/jquery.scrollTo.min.js"></script>
+    <script src="/lib/jquert.pano.js"></script>
 
 </head>
 
@@ -67,11 +68,51 @@
         <div id="tab">
             <div id="temple01">
                 <div class="temple_img">
-                    <img src="/image/temple01_1.jpg" alt="">
-                    <img src="/image/temple01_2.jpg" alt="">
+                    <img src="/image/temple01_1.png" alt="">
+                    <img src="/image/temple01_2.png" alt="">
                 </div>
-                <div class="img360">
-
+                <div id="temple01_img360">
+                </div>
+                <div class="title">
+                    <div class="title1">
+                        <img src="/image/temple_title_logo.png" alt="">
+                    </div>
+                    <div class="title2">
+                        <img src="/image/temple01_title.png" alt="">
+                    </div>
+                </div>
+                <div class="temple_content_text">
+                    <p>
+                        媽祖文化大樓位於朝天宮廟後側，由北港鎮公所提供土地，地下室設小型車收費停車場，</p>
+                    <p>
+                        一、二樓由鎮公所，規劃市場店面、攤位。
+                    </p>
+                    <p>
+                        三樓朝天宮東側設置道場供奉三寶佛及媽祖光明燈，由本宮住廟法師、誦經團誦經祈福，西側設置元辰府供奉斗姥元君、左輔、右弼及六十太歲星君，供信徒登記安太歲，三樓另設有演藝廳，內附一舞台及452個座位，挑高至四樓，平常做為藝文表演及講座之用。
+                    </p>
+                    <p>
+                        四樓設有文物展示迴廊，展示文物以北港藝陣及本宮文物為主，另展示廳內展示本宮文物外，每年邀請不同收藏文物、藝術家提供展品，配合香盛期由農曆元月一日至三月二十三日媽祖誕辰期間配合展出。
+                    </p>
+                    <p>
+                        四樓屋頂設計中式古色古香庭園迴廊景觀公園面積近千坪，廣場中豎立一尊石雕媽祖像，石像由大陸廈門大學美術系李維祀教授設計，採立像手持如意象徵和平女神護佑兩岸人民，石像採用花崗岩打造，石像高14米9由357塊組合而成，石像底座高5米，正面採用青斗石雕刻四海龍王率24司朝拜媽祖，底座兩側雕刻24孝圖。
+                    </p>
+                    <p>
+                        石像共打造2尊，一尊安座大陸湄洲天后宮島上，由大陸莆田石匠打造安座，另一尊由大陸惠安石匠朱伯英、朱伯雄打造，並來台監督安座本宮媽祖文化大樓景觀公園頂樓上，景觀公園及石雕媽祖像，於民國85年3月13日邀請李登輝總統、宋楚瑜省長、廖泉裕縣長、張榮味議長等長官貴賓蒞臨舉行揭幕典禮。
+                    </p>
+                </div>
+                <div class="vedio">
+                    <iframe width="820" height="400" src="https://www.youtube.com/embed/RPjWYhxwIPY"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </div>
+            </div>
+            <div id="temple02">
+                <div class="temple_img">
+                    <img src="/image/temple02_1.jpg" alt="">
+                    <img src="/image/temple02_2.jpg" alt="">
+                </div>
+                <div id="temple02_img360">
                 </div>
                 <div class="vedio">
                     <iframe width="820" height="400" src="https://www.youtube.com/embed/RPjWYhxwIPY"
@@ -150,17 +191,16 @@
                     </div>
 
                 </div>
+
             </div>
-            <div id="temple02"></div>
             <div id="temple03"></div>
             <div id="temple04"></div>
             <div id="temple05">
                 <div class="temple_img">
-                    <img src="/image/temple01_1.jpg" alt="">
-                    <img src="/image/temple01_2.jpg" alt="">
+                    <img src="/image/temple05_1.jpg" alt="">
+                    <img src="/image/temple05_2.jpg" alt="">
                 </div>
-                <div class="img360">
-
+                <div id="temple05_img360">
                 </div>
                 <div class="vedio">
                     <iframe width="820" height="400" src="https://www.youtube.com/embed/RPjWYhxwIPY"
@@ -173,7 +213,7 @@
                         <img src="/image/temple_title_logo.png" alt="">
                     </div>
                     <div class="title2">
-                        <img src="/image/temple01_title.png" alt="">
+                        <img src="/image/temple05_title.png" alt="">
                     </div>
                     <p>
                         主神：媽祖（前列由湄洲奉請來的媽祖，中列二~六媽，後列鎮殿媽）<br>配祀：香花女及千里眼、順風耳。
@@ -234,7 +274,7 @@
                             </p>
                         </div>
                         <div class="arch_img">
-                            <img src="/image/temple01_arch.png" alt="">
+                            <img src="/image/temple05_arch.png" alt="">
                         </div>
                     </div>
 
@@ -264,6 +304,12 @@
         </ul>
     </div>
 
+    <!-- <div style="height: 500px;" id="myPano" class="pano">
+        <div class="controls">
+            <a href="#" class="left">&laquo;</a>
+            <a href="#" class="right">&raquo;</a>
+        </div>
+    </div> -->
 
     <div class="footer">
         <div class="footerLeft">
@@ -284,6 +330,18 @@
                 duration: 500            // 捲動速度
             });
         });
+        $("#temple01_img360").pano({ img: "./image/temple_tour1.jpeg" });
+        $("#temple02_img360").pano({ img: "./image/temple_tour2.jpeg" });
+        $("#temple03_img360").pano({ img: "./image/temple_tour3.jpeg" });
+        $("#temple04_img360").pano({ img: "./image/temple_tour4.jpeg" });
+        $("#temple05_img360").pano({ img: "./image/temple_tour5.jpeg" });
+        $("#temple06_img360").pano({ img: "./image/temple_tour6.jpeg" });
+        $("#temple07_img360").pano({ img: "./image/temple_tour7.jpeg" });
+        $("#temple08_img360").pano({ img: "./image/temple_tour8.jpeg" });
+        $("#temple09_img360").pano({ img: "./image/temple_tour9.jpeg" });
+        $("#temple10_img360").pano({ img: "./image/temple_tour10.jpeg" });
+        $("#temple11_img360").pano({ img: "./image/temple_tour11.jpeg" });
+
     </script>
 </body>
 
