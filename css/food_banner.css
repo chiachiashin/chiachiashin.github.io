@@ -5,7 +5,7 @@
     padding: 168px 0;
     text-align-last: justify;
     margin: 0 auto;
-    font-weight: bold;
+    font-weight: bold;text-shadow: 0rem .4rem .4rem rgba(0, 0, 0, .25);
 }
 
 .banner div {
@@ -18,27 +18,49 @@
     top: 0;
     left: 0;
 }
-
-.banner01 {
+.banner{
     width: 100vw;
     height: 100vh;
     max-height: 368px;
-    background-image: url("/image/food_food01_banner.jpg");
     background-position: center, center;
     background-size: cover;
     background-repeat: no-repeat;
     background-color: rgba(217, 202, 156, .5);
     position: relative;
 }
+.banner01 {
+    background-image: url("/image/food_food01_banner.jpg");
+}
 
 .banner02 {
-    width: 100vw;
-    height: 100vh;
-    max-height: 368px;
     background-image: url("/image/food_food02_banner.jpg");
-    background-position: center, center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-color: rgba(217, 202, 156, .5);
-    position: relative;
+}
+.banner03 {
+    background-image: url("/image/food_food03_banner.jpg");
+}
+.banner04 {
+    background-image: url("/image/food_food04.jpg");
+}
+.banner05 {
+    background-image: url("/image/food_food05_banner.jpg");
+}
+.banner06 {
+    background-image: url("/image/food_food06_banner.jpg");
+    background-position: bottom;
+}
+.banner07 {
+    background-image: url("/image/food_food07_banner.jpg");
+}
+.banner08 {
+    background-image: url("/image/food_food08_banner.jpg");
+    /* background-position: bottom; */
+}
+.banner09 {
+    background-image: url("/image/food_food09_banner.jpg");
+}
+.banner10 {
+    background-image: url("/image/food_food10.jpg");
+}
+.banner11 {
+    background-image: url("/image/food_food11_banner.jpg");
 }
