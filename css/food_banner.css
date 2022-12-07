@@ -1,10 +1,11 @@
 .banner p {
     max-width: 163px;
     color: #F2F2F2;
-    font-size: 32px;
+    font-size: 26px;
     padding: 168px 0;
     text-align-last: justify;
     margin: 0 auto;
+    font-weight: bold;
 }
 
 .banner div {
@@ -22,7 +23,19 @@
     width: 100vw;
     height: 100vh;
     max-height: 368px;
-    background-image: url("/image/food_banner.jpg");
+    background-image: url("/image/food_food01_banner.jpg");
+    background-position: center, center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgba(217, 202, 156, .5);
+    position: relative;
+}
+
+.banner02 {
+    width: 100vw;
+    height: 100vh;
+    max-height: 368px;
+    background-image: url("/image/food_food02_banner.jpg");
     background-position: center, center;
     background-size: cover;
     background-repeat: no-repeat;
