@@ -246,6 +246,7 @@ body{
     margin-right: 40px;
 }
 .newsPage .newsText li{
+    width: 100%;
     font-size: 15px;
     margin-bottom: 20px;
     letter-spacing: .3rem;
