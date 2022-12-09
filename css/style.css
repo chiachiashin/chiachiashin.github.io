@@ -156,12 +156,12 @@ body{
     letter-spacing: 0.3rem;
     display: inline-block;
     height: 25px;
+    width: 1000px;
 }
 .header .menu a:hover{
     color: #1B337D;
     border-bottom: 2px solid #1B337D;
     box-sizing: border-box;
-    width: 1000px;
 }
 .header .menu .last{
     margin-bottom: 0;
