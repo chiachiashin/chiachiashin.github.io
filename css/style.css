@@ -237,7 +237,7 @@ body{
     /* justify-content: space-between; */
 }
 .newsPage .newsText .left{
-    max-width: 110px;
+    max-width: 170px;
     color: #1B337D;
 }
 .newsPage .newsText .right{
