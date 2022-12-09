@@ -38,8 +38,28 @@ td:nth-child(2):hover a{
     text-shadow: 0rem .4rem .4rem rgba(0,0,0,.25);
 }
 .content{
-    margin-bottom: 180px;
+    /* width: 815px; */
+    /* height: 280px; */
+    /* overflow: scroll; */
+    margin: 0 auto 65px;
 }
-.content table{
-    margin: 0 auto;
+.wrapper{
+    /* width: 10000%; */
+    display: flex;
+    /* border: 1px solid #000; */
+}
+.swiper {
+    width: 815px;
+    height: 450px;
+    /* border: 1px solid #000; */
+}  
+.swiper-button-prev,
+.swiper-button-next {
+    margin-top: 180px;
+    color: #D9CA9C;
+    
+}
+:root {
+    --swiper-theme-color: #1B337D;
+    --swiper-navigation-size: 30px;
 }
