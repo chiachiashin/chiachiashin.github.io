@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="text/javascript" src="/lib/jquery-1.11.3.min.js"></script>
+    <script type="text/javascript" src="/lib/turn.min.js"></script>
+</head>
+
+<body>
+    <div id="flipbook_IDname">
+        <div class="hard"></div>
+        <div style="background-color: #777;"> Page 1 </div>
+        <div class="hard"></div>
+    </div>
+<script>
+    $("#flipbook_IDname").turn({
+  width: 200,
+  height: 300,
+  autoCenter: true
+});
+$("#flipbook_IDname").turn("display","single");
+</script>
+</body>
+</html>
