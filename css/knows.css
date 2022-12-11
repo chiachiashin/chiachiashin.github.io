@@ -643,12 +643,18 @@ span {
 
 
 #map {
+    /* width: 100vw; */
     margin-bottom: 150px;
 }
 
-#map img {
+#map .box{
     width: 100%;
     max-width: 1800px;
+    margin: 0 auto;
+}
+
+#map .box img {
+    width: 100%;
     /* margin: 0 auto; */
 }
 
@@ -717,16 +723,24 @@ html {
     scroll-behavior: smooth;
 }
 
+
+#process{
+    position: relative;
+    height: 700px;
+}
+
 /**
  * Swiper
  **/
 .swiper-wrapper {
+    margin-top: 220px;
     align-items: center
 }
 
 .swiper-slide {
     background: linear-gradient(45deg, rgb(246, 146, 89), rgb(241, 105, 117));
     transform: scale(0.7);
+    transition: .5s;
 }
 
 .swiper-slide-active {
@@ -740,4 +754,12 @@ html {
 .swiper-button-prev,
 .swiper-button-next {
     color: rgb(246, 146, 89);
+}
+#process .swiper-button-next,
+#process .swiper-button-prev{
+    color: #888;
+    top: 50%;
+}
+:root{
+    --swiper-navigation-size: 20px !important;
 }

@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="lib/swiper-bundle.min.css">
     <script type="text/javascript" src="./lib/jquery-1.11.3.min.js"></script>
     <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-    <script type="text/javascript" src="/lib/slick/slick.min.js"></script>
+    <script type="text/javascript" src="/lib/swiper-bundle.min.js"></script>
     <script src="/lib/lightbox-plus-jquery.js"></script>
     <script src="/lib/lightbox.js"></script>
 </head>
@@ -420,22 +420,27 @@
             <img src="/image/title_bg.png" alt="">
             <h2>參拜地圖</h2>
         </div>
-        <img src="/image/knows_map.png" alt="">
+        <div class="box">
+            <img src="/image/knows_map.png" alt="">
+        </div>
     </div>
     <div id="process">
         <div class="title">
             <img src="/image/title_bg.png" alt="">
             <h2>參拜流程</h2>
         </div>
-        <!-- <div class="process_content">
-            <div><img src="/image/knows_process1.png" alt=""></div>
-            <div><img src="/image/knows_process2.png" alt=""></div>
-            <div><img src="/image/knows_process3.png" alt=""></div>
-            <div><img src="/image/knows_process4.png" alt=""></div>
-            <div><img src="/image/knows_process4-1.png" alt=""></div>
-            <div><img src="/image/knows_process5.png" alt=""></div>
-
-        </div> -->
+        <div class="process_content swiper-container">
+            <div class="swiper-wrapper">
+                <img class="swiper-slide" src="/image/knows_process1.png" alt="">
+                <img class="swiper-slide" src="/image/knows_process2.png" alt="">
+                <img class="swiper-slide" src="/image/knows_process3.png" alt="">
+                <img class="swiper-slide" src="/image/knows_process4.png" alt="">
+                <img class="swiper-slide" src="/image/knows_process4-1.png" alt="">
+                <img class="swiper-slide" src="/image/knows_process5.png" alt="">
+            </div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        </div>
     </div>
     <div id="culture">
         <div class="title">
@@ -487,12 +492,15 @@
             slidesToScroll: 1,
         });
         */
-       var swiper = new Swiper(".process_content",{
+       var swiper = new Swiper(".swiper-container",{
         slidesPerView: 3,
         spaceBetween: 100,
         centeredSlides: true,
         loop: true,
         loopFillGroupWithBlank: true,
+        pagination: {
+        el: '.swiper-pagination',
+        clickable: true,},
         navigation: {
             nextEl: '.swiper-button-next',
             prevEl: '.swiper-button-prev',
