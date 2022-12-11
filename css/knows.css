@@ -758,7 +758,7 @@ html {
 #process .swiper-button-next,
 #process .swiper-button-prev{
     color: #888;
-    top: 50%;
+    top: 60%;
 }
 :root{
     --swiper-navigation-size: 20px !important;
