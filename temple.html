@@ -766,25 +766,7 @@
       },
     })
 
-    var mySwiper = new Swiper('.swiper-container', {
-      autoHeight: true,
-      noSwiping: true,
-      noSwipingClass: 'stop-swiping',
-      // 迴圈模式
-      loop: true, pagination: {
-        // 自定義分頁器的類名----必填項
-        el: '.custom-pagination2',// 是否可點選----必填項
-        clickable: true,// 分頁的型別是自定義的----必填項
-        type: 'custom',
-        renderCustom: function (swiper, current, total) {
-          //  console.log(current);//1 2 3 4
-
-          // 1、分頁器啟用樣式的改變---給自己新增啟用樣式並將兄弟的啟用樣式移出。
-
-          // 2、分頁器點選的時候同時切換輪播圖(事件委託)----迴圈模式slideToLoop--
-        }
-      },
-    })
+    
 
 
     $("#temple01_img360").pano({ img: "./image/temple_tour1.jpeg" });
