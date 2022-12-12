@@ -23,11 +23,11 @@
 }
 
 /* 點選的啟用樣式 */
-.swiper-content .nav-item.active {
+.swiper-content .nav-item.active a {
   /* background-color: #378ee6; */
-  /* color: #9D0208;
-  border-bottom: 4px solid #9D0208; */
-  /* box-sizing: border-box; */
+  color: #9D0208;
+  border-bottom: 4px solid #9D0208;
+  box-sizing: border-box;
 }
 
 /* 輪播圖的樣式 */

@@ -753,9 +753,13 @@
 
           // 1、分頁器啟用樣式的改變---給自己新增啟用樣式並將兄弟的啟用樣式移出。
           $('.custom-pagination').children().eq(current - 1).addClass('active').siblings().removeClass('active');
+          $('.custom-pagination2').children().eq(current - 1).addClass('active').siblings().removeClass('active');
 
           // 2、分頁器點選的時候同時切換輪播圖(事件委託)----迴圈模式slideToLoop--
           $('.custom-pagination').on('click', 'li', function () {
+            mySwiper.slideToLoop($(this).index(), 1000, false)
+          })
+          $('.custom-pagination2').on('click', 'li', function () {
             mySwiper.slideToLoop($(this).index(), 1000, false)
           })
         }
@@ -776,12 +780,8 @@
           //  console.log(current);//1 2 3 4
 
           // 1、分頁器啟用樣式的改變---給自己新增啟用樣式並將兄弟的啟用樣式移出。
-          $('.custom-pagination2').children().eq(current - 1).addClass('active').siblings().removeClass('active');
 
           // 2、分頁器點選的時候同時切換輪播圖(事件委託)----迴圈模式slideToLoop--
-          $('.custom-pagination2').on('click', 'li', function () {
-            mySwiper.slideToLoop($(this).index(), 1000, false)
-          })
         }
       },
     })
